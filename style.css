@@ -12,6 +12,10 @@ body {
     align-items: center;
 
 }
+.hover {
+    padding: 5px;
+    border: 2px solid transparent;
+}
 
 .hover:hover {
     border: 2px solid white;
@@ -22,8 +26,6 @@ body {
 .logo {
     height: 40px;
     width: 110px;
-    border: 2px solid transparent;
-    padding: 5px;
     background-image: url(amazon-logo.png);
     object-fit: cover;
     color: white;
@@ -34,14 +36,30 @@ body {
 
 /* nav location */
 
+
 .nav-location span {
     display: block;
-    float: left;
-
 }
 
 .nav-line1 {
     font-size: 0.70rem;
     font-weight: 300;
+}
 
+.nav-line2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* search bar */
+
+.nav-search { 
+    width: 400px;
+    display: flex;
+    position: static;
+    float: none;
+}
+
+.nav-search-bar {
+    height: 30px;
 }
