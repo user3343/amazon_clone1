@@ -54,12 +54,23 @@ body {
 /* search bar */
 
 .nav-search { 
-    width: 400px;
     display: flex;
-    position: static;
-    float: none;
+    justify-content: space-evenly;
+    background-color: #fff;
+    height: 40px;
+    width: 500px;
+    
 }
 
-.nav-search-bar {
-    height: 30px;
+.nav-search-select {
+    width: 50px;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    border: none;
+}
+
+.nav-search-text {
+    width: 100%;
+    border: none;
+    height: 100%;
 }
