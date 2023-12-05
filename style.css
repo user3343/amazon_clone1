@@ -1,11 +1,12 @@
 body {
     margin: 0px;   
-    border: border-box; 
+    box-sizing: border-box; 
     font-family: Arial, Helvetica, sans-serif;
 }
 /* navbar */
 .navbar {
     height: 60px;
+    color: #ffffff;
     background-color: rgb(19, 25, 33);
     display: flex;
     align-items: center;
@@ -20,7 +21,8 @@ body {
 /* logo */
 .logo {
     height: 40px;
-    width: 120px;
+    width: 110px;
+    border: 2px solid transparent;
     padding: 5px;
     background-image: url(amazon-logo.png);
     object-fit: cover;
@@ -30,3 +32,16 @@ body {
     justify-content: center;
 }
 
+/* nav location */
+
+.nav-location span {
+    display: block;
+    float: left;
+
+}
+
+.nav-line1 {
+    font-size: 0.70rem;
+    font-weight: 300;
+
+}
