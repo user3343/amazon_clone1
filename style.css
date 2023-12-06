@@ -96,7 +96,40 @@ body {
     border-bottom-right-radius: 4px;
 }
 
+/* nav main */
+
+.nav-main {
+    background-color: #232f3f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.nav-list {
+    font-weight: 700;
+}
+
+.nav-main div {
+    flex-grow: 1;
+}
 
 
+.nav-main a {
+    margin-left: 5px;
+    border: 2px solid transparent;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 0.85rem;
+
+}
+
+.nav-main a:hover {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
 
 
