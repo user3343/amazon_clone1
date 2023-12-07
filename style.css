@@ -139,3 +139,42 @@ body {
     
 }
 
+/* hero img */
+
+.hero-img {
+    background-image: url(hero-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+main {
+    transform: translateY(-300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background-color: #ffffff;
+    height: 40px;
+    width: 95%;
+    font-size: 0.80rem;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.link-hover {
+    color: #007185;
+    text-decoration: none;
+}
+
+.link-hover:hover {
+    color: #C7511F;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
