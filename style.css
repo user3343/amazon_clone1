@@ -146,7 +146,24 @@ body {
     background-image: url(hero-img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
     height: 500px;
+}
+
+.hero-text {
+    background-color: #ffffff;
+    height: 40px;
+    width: 97%;
+    font-size: 0.80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* transform: translateY(-300px); */
+    margin: 5%;
+    margin-bottom: 2%;  
 }
 
 main {
@@ -155,18 +172,7 @@ main {
     justify-content: center;
 }
 
-.hero-text {
-    background-color: #ffffff;
-    height: 40px;
-    width: 95%;
-    font-size: 0.80rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    transform: translateY(-300px);
-    margin: 20px;  
-}
+
 
 .link-hover {
     color: #007185;
@@ -181,7 +187,7 @@ main {
 }
 
 main {
-    transform: translateY(-300px);
+    /* transform: translateY(-300px); */
     width: 100%; 
     display: flex;
     justify-content: center;
