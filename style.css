@@ -203,12 +203,48 @@ main {
     background-color: #ffffff;   
 }
 
+.cardui:hover {
+    cursor: pointer;
+}
+
 .card-img {
     height: 80%;
     width: 90%;
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+/* sliding cards */
+.sliding-cards {
+    height: 300px;
+    width: 95%;
+    margin: 2%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+.slid-box {
+    height: 220px;
+    width: 95%;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    overflow-x: auto;
+
+}
+.slid-box::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.slid-box .slid-boxes {
+    min-width: 310px;
+    height: 210px;
+    line-height: 210px;
+    text-align: center;
+    background-color: #fff;
 }
 
 /* footer */
